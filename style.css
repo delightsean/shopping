@@ -25,12 +25,20 @@ header {
 }
 
 .contactbtn {
-    margin-left: 20px;      
-    padding: 8px 15px;
-    background: #007BFF;    
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
+    margin-left: 20px;          /* space from nav links */
+    padding: 8px 15px;          /* button size */
+    background-color: #007BFF;  /* primary blue */
+    color: #fff;                /* white text */
+    border-radius: 5px;         /* rounded corners */
+    text-decoration: none;      /* remove underline */
+    font-weight: 600;           /* make text bolder */
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: inline-block;      /* ensures padding applies cleanly */
+}
+
+.contactbtn:hover {
+    background-color: #0056b3;  /* darker blue on hover */
+    transform: scale(1.05);     /* subtle grow effect */
 }
 
 }
@@ -148,4 +156,5 @@ footer {
   padding: 0.4rem;
   margin-top: 2rem;
 }
+
 

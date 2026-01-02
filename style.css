@@ -1,4 +1,4 @@
-body {
+ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
- background-image: url('C:/Users/delig/Downloads/marshmallow-pink-baby-onesie-brush-pacifier-milk-bottle-toy-white-background.jpg');
+ background-image: url('images/marshmallow-pink-baby-onesie-brush-pacifier-milk-bottle-toy-white-background.jpg');
   text-align: center;
   padding: 2rem;
 }
@@ -28,14 +28,14 @@ header p {
 .section {
   padding: 3rem 2rem;
   text-align: center;
-  background-image: url('C:/Users/delig/Downloads/border-from-hygiene-supplies (1).jpg');
+  background-image: url( 'images/border-from-hygiene-supplies\ \(1\).jpg');
 }
 
 .section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #ff6f61;
-  background-image: url('C:/Users/delig/Downloads/border-from-hygiene-supplies (1).jpg');
+  background-image: url('images/border-from-hygiene-supplies\ \(1\).jpg');
 }
 .products {
   display: grid;
@@ -106,7 +106,7 @@ header p {
   background: #e85c50;
 }
 .hero {
-  background: url('https://images.unsplash.com/photo-1581579185169-3e7c2c7a9f3a') no-repeat center/cover;
+   
   height: 400px;
   display: flex;
   align-items: center;
@@ -119,9 +119,10 @@ header p {
 
 
 footer {
-   background-image: url('C:/Users/delig/Downloads/marshmallow-pink-baby-onesie-brush-pacifier-milk-bottle-toy-white-background.jpg');
+   background-image: url('images/marshmallow-pink-baby-onesie-brush-pacifier-milk-bottle-toy-white-background.jpg');
   color: rgb(239, 12, 12);
   text-align: center;
   padding: 0.4rem;
   margin-top: 2rem;
 }
+
